@@ -1,0 +1,18 @@
+body {
+	min-width: auto;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Calibri', 'Arial';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(224, 151, 11));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
