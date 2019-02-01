@@ -52,7 +52,7 @@ onPasswordChange = (event) => {
 
 onButtonSubmit = (event) => {
 			if (this.state.nameRegister !== '' || this.state.emailRegister !== '' || this.state.passwordRegister !== ''){
-				fetch('http://localhost:3000/register', {
+				fetch('https://lit-scrubland-88405.herokuapp.com/register', {
 				method: "post",
 				headers: {"Content-Type": "application/json"},
 				body: JSON.stringify({
